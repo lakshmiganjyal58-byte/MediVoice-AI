@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediVoice AI Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>MediVoice AI</h1>
+    <p>Smart Doctor Appointment Booking System</p>
+
+    <h2>Available Doctors</h2>
+    <div id="doctors">
+        Loading doctors...
+    </div>
+
+    <h2>Book an Appointment</h2>
+    <form id="bookingForm">
+        <input id="patientName" placeholder="Patient Name" required>
+        <input id="phoneNumber" placeholder="10-digit Phone Number" required>
+        <input id="doctorName" placeholder="Doctor Name" required>
+        <input id="date" type="date" required>
+        <select id="time" required>
+            <option value="">Select Time</option>
+            <option>09:00 AM</option>
+            <option>10:00 AM</option>
+            <option>11:00 AM</option>
+            <option>12:00 PM</option>
+            <option>01:00 PM</option>
+            <option>02:00 PM</option>
+            <option>03:00 PM</option>
+            <option>04:00 PM</option>
+        </select>
+        <button type="submit">Book Appointment</button>
+    </form>
+
+    <p id="message"></p>
+
+    <h2>Cancel Appointment</h2>
+
+<input id="cancelPhone" placeholder="Enter Phone Number">
+
+<button onclick="cancelAppointment()">
+    Cancel Appointment
+</button>
+
+    <h2>Appointments</h2>
+    <div id="appointments">
+        Loading appointments...
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

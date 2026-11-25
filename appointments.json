@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "patient_name": "Test Patient",
+        "phone_number": "9876543210",
+        "doctor_name": "Dr. Ananya Sharma",
+        "speciality": "Cardiologist",
+        "date": "2026-11-25",
+        "time": "10:00 AM",
+        "status": "Cancelled"
+    },
+    {
+        "id": 2,
+        "patient_name": "Test Patient",
+        "phone_number": "9876543210",
+        "doctor_name": "Dr. Ananya Sharma",
+        "speciality": "Cardiologist",
+        "date": "2026-11-24",
+        "time": "10:00 AM",
+        "status": "Cancelled"
+    },
+    {
+        "id": 3,
+        "patient_name": "Demo Patient",
+        "phone_number": "9999999999",
+        "doctor_name": "Dr. Rahul",
+        "speciality": "General Physician",
+        "date": "2026-11-25",
+        "time": "11:00 AM",
+        "status": "Booked"
+    },
+    {
+        "id": 4,
+        "patient_name": "Demo User",
+        "phone_number": "8888888888",
+        "doctor_name": "Dr. Ananya Sharma",
+        "speciality": "Cardiologist",
+        "date": "2026-11-26",
+        "time": "10:00 AM",
+        "status": "Cancelled"
+    },
+    {
+        "id": 5,
+        "patient_name": "Test Patient",
+        "phone_number": "9876543210",
+        "doctor_name": "Dr. Ananya Sharma",
+        "speciality": "Cardiologist",
+        "date": "2026-11-26",
+        "time": "10:00 AM",
+        "status": "Booked"
+    }
+]
