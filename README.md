@@ -1,46 +1,36 @@
-MediVoice-AI – Voice AI Doctor Appointment Assistant
+MediVoice AI
 
-Project Overview
+MediVoice AI is a doctor appointment management application developed using Python and web technologies.
 
-MediVoice-AI is a doctor appointment management application developed as part of the SDE Internship Round 1 Assignment.
-
-The application helps users check doctor availability, book appointments, and cancel existing appointments through a simple web dashboard.
-
-Features
-
-- View available doctors and specialities.
-- Check doctor availability.
-- Book doctor appointments.
-- Cancel appointments.
-- View appointment status.
-- Store appointment information using JSON.
+The application allows users to view available doctors, check appointment slots, book appointments, and cancel existing appointments.
 
 Technologies Used
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: Python
-- Data Storage: JSON
+- Python
+- FastAPI
+- HTML
+- CSS
+- JavaScript
+- JSON
 
-Project Files
+Features
 
-- "index.html" – Main webpage
-- "style.css" – Dashboard styling
-- "script.js" – Frontend functionality
-- "main.py" – Backend application
-- "appointment_service.py" – Appointment management functions
-- "test_appointment.py" – Testing
-- "appointments.json" – Appointment data
+- View available doctors and their specialities.
+- Check available appointment slots.
+- Book doctor appointments.
+- Cancel appointments using a phone number.
+- Store appointment information in a JSON file.
 
-How to Run
+Project Structure
 
-1. Download or clone this repository.
-2. Open the project folder in VS Code.
-3. Install the required Python dependencies, if any.
-4. Run the backend using the appropriate Python command.
-5. Open the frontend in your browser.
+- "main.py" – FastAPI backend.
+- "appointment_service.py" – Appointment booking and cancellation logic.
+- "appointments.json" – Appointment data storage.
+- "index.html" – Frontend page.
+- "style.css" – Frontend styling.
+- "script.js" – Frontend functionality.
+- "test_appointment.py" – Appointment testing.
 
-Assignment
+Note
 
-SDE Intern – Round 1
-
-Project: Voice AI Doctor Appointment Assistant
+This version implements the appointment management functionality. A Pipecat-based voice pipeline and external speech/LLM integrations are not included in this version.
